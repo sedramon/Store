@@ -5,7 +5,7 @@ import java.util.Date;
 
 public abstract class Product {
 	
-	protected String name, brand;
+    protected String name, brand;
     protected Date manufacturedAt;
     protected Calendar dayInWeek = Calendar.getInstance();
     protected double discount, price, discountSize;
